@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-image: url("img/2859.jpg");
+}
+
+nav {
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: white;}
+a{
+    color:  #447577  ;
+
+}
+
+nav>p>strong {
+    color:  #254fda ;
+}
+
+blockquote>strong>em{
+    color: #254fda;
+}
+blockquote{
+    background-color:  #cbcda3 ;
+    font-style: italic;
+    margin:0;
+    padding-left:100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+    margin:0;
+}
+h1>small {
+    font-size: 20px;
+    color: grey;
+    font-family:sans-serif;
+}
+section
+{
+    color: white;
+
+}
+section>h1{
+    background-color: rgba(10%,10%,10%,0.9);
+    text-align: center;
+    margin:0;
+}
+section section{
+    margin:-20px auto 0 auto;
+    width:700px;
+}
+section:nth-of-type(1)>section:nth-of-type(1){
+    background-color: slategray;
+    background-position: center;
+}
+pre{
+    font-size: larger;
+    font-family: 'Ubuntu Mono', monospace;
+}
+section:nth-of-type(1)>section:nth-of-type(2) {
+    background-color: rgba(100%,100%,100%,0.8);
+    color: black;
+    font-size: 18px;
+}
+section:nth-of-type(2)>p:nth-of-type(1)>span{
+    color: white;
+    background-color: #404040;
+}
+section:nth-of-type(2)>p:nth-of-type(2)>span{
+    color: white;
+    background-color: slategray;
+}
+section:nth-of-type(2)>p:nth-of-type(3)>span{
+    color: white;
+    background-color: slategray;
+}
+section:nth-of-type(2)>p:nth-of-type(4)>span{
+    color: white;
+    background-color: slategray;
+}
+section:nth-of-type(2)>p:nth-of-type(5)>span{
+    color: blue;
+    font-weight: bold;
+}
+
+body>h1:nth-of-type(2){
+    background-color: rgba(10%,10%,10%,0.9);
+    text-align: center;
+}
